@@ -23,7 +23,9 @@ if (!is_null($events['events'])) {
 				$text = "ทุก ๆ ที่น่ะแหละ";
 			} elseif (stripos($text, "ใคร") !== false) {
 				$text = "ฉันคิดว่าคุณก็รู้อยู่นะ";
-			} 
+			} elseif (stripos($text, "หรอ") !== false) {
+				$text = "อืม...ใช่นะ";
+			}
 			
 			
 			$messages = [
