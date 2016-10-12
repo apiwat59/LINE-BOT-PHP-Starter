@@ -19,6 +19,11 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 
 			// Build message to reply back
+			if ($text=='คุณอยู่ที่ไหน') {
+				$text = 'ฉันอยู่ในใจคุณ';
+			}
+			
+			
 			$messages = [
 				'type' => 'text',
 				'text' => $text
