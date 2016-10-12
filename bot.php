@@ -21,9 +21,9 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			if (stripos($text, "ที่ไหน") !== false) {
 				$text = "ทุก ๆ ที่น่ะแหละ";
-			} elseif (stripos($text, "ใคร") !== false {
+			} elseif (stripos($text, "ใคร") !== false) {
 				$text = "ฉันคิดว่าคุณก็รู้อยู่นะ";
-			}
+			} 
 			
 			
 			$messages = [
