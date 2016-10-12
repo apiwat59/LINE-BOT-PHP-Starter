@@ -27,6 +27,14 @@ if (!is_null($events['events'])) {
 				$text = "อืม...ใช่นะ";
 			} elseif (stripos($text, "สวัสดี") !== false) {
 				$text = "สวัสดีครับ อากาศดีนะครับ";
+			} elseif (stripos($text, "help") !== false) {
+				$text = "รองรับคำว่า ที่ไหน, ใคร, หรอ, สวัสดี, help";
+			} elseif (stripos($text, "ช่วยด้วย") !== false) {
+				$text = "รองรับคำว่า ที่ไหน, ใคร, หรอ, สวัสดี, help";
+			} elseif (stripos($text, "ค้น") !== false) {
+				$text = "ได้สิ ลองดูที่ https://www.google.co.th";
+			} elseif (stripos($text, "หา") !== false) {
+				$text = "ได้สิ ลองดูที่ https://www.google.co.th";
 			}
 			
 			
