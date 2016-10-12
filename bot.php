@@ -19,8 +19,10 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 
 			// Build message to reply back
-			if ($text=='คุณอยู่ที่ไหน') {
-				$text = 'ฉันอยู่ในใจคุณ';
+			if ($text contains "ที่ไหน") {
+				$text = "ทุก ๆ ที่น่ะแหละ";
+			} elseif ($text contains "ใคร" {
+				$text = "ฉันคิดว่าคุณก็รู้อยู่นะ";
 			}
 			
 			
