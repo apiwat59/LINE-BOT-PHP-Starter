@@ -28,7 +28,7 @@ if (!is_null($events['events'])) {
 			} elseif (stripos($text, "สวัสดี") !== false) {
 				$text = "สวัสดีครับ อากาศดีนะครับ";
 			} elseif (stripos($text, "help") !== false) {
-				$text = "รองรับคำว่า ที่ไหน, ใคร, หรอ, สวัสดี, help";
+					$text = "รองรับคำว่า ที่ไหน, ใคร, หรอ, สวัสดี, help, ค้น, หา";
 			} elseif (stripos($text, "ช่วยด้วย") !== false) {
 				$text = "รองรับคำว่า ที่ไหน, ใคร, หรอ, สวัสดี, help";
 			} elseif (stripos($text, "ค้น") !== false) {
