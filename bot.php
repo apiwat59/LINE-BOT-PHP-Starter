@@ -25,7 +25,7 @@ if (!is_null($events['events'])) {
 				$text = "ฉันคิดว่าคุณก็รู้อยู่นะ";
 			} elseif (stripos($text, "หรอ") !== false) {
 				$text = "อืม...ใช่นะ";
-			} (stripos($text, "สวัสดี") !== false) {
+			} elseif (stripos($text, "สวัสดี") !== false) {
 				$text = "สวัสดีครับ อากาศดีนะครับ";
 			}
 			
